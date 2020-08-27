@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document </title>
+    <script src ="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+    <fieldset style="border: 3px solid ;width: 700px; height: 450px;margin:left;
+    background-color: skyblue;  padding: 5px 5px;">
+    <legend><h3>Mock Up Prototype</h3></legend>
+
+    <div id ="main">
+    <form>
+    
+    <label for="eventTypes">Event Types:</label>
+    <select name="eventTypes" id="eventTypes" required="">
+    <option value="">Select Event Type:</option>
+    <option value="A">IICS week</option>
+    <option value="B">Orientation</option>
+    <option value="C">Seminar</option>
+    </select>
+    <br>
+    
+    <div id = "eTitle">
+    <label for ="title">Event Title: </label>
+    <input type="text" id = "title" name ="title" min = "1" placeholder="Event Title">
+    </div>
+    <br>
+
+    
+    <label for ="Edate">Event Date:</label>
+    <input type="date" id = "Edate" name = "Edate" min="2020-1-1">
+    <label for ="To">To: </label>
+    <input type="date" id = "To" name = "To">
+    <br><br>
+    <label for ="Posting"> Posting Date: </label>
+    <input type="date" id = "Posting" name = "Posting">
+    
+    <br><br>
+    </div>
+
+    <input type="checkbox" id="op1" name="op" value="Bike">
+    <label for="op1">Is Registration Required? </label><br>
+    <input type="checkbox" id="op1" name="op" value="Bike">
+    <label for="op2">Is this event associated with Family Programs? </label><br>
+    <input type="checkbox" id="op1" name="op" value="Bike">
+    <label for="op3">Upon Completion, Are users to Receive an Auto Generated Email? </label><br>
+    <input type="checkbox" id="op1" name="op" value="Bike">
+    <label for="op4">Is there a point of Contact? </label><br>
+    <input type="checkbox" id="op1" name="op" value="Bike">
+    <label for="op5">Is there a hosting Command Point of Contact? </label><br>
+
+    <button id ="submit" onclick="validate()" type="submit">Save</button> 
+    <input id = "cancel" type="reset" value="Cancel">
+
+    </form>
+    <p>
+        CREATED TODAYg
+    </p>
+    <p>
+        BY GROUP 3
+    </p>
+
+</body>
+</html>
